@@ -1,0 +1,86 @@
+.mont{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background: #1CADC6;
+background: -webkit-linear-gradient(left, #1CADC6, #3AB197);
+background: -moz-linear-gradient(left, #1CADC6, #3AB197);
+background: linear-gradient(to right, #1CADC6, #3AB197);
+}
+.fon{
+    font-size:18px;
+    text-align: center;
+}
+.font{
+    font-size:18px;
+}
+.fon-sm{
+    font-size:14px;
+    text-align: center;
+}
+.bg-color{
+    background-color:#19c1df;
+}
+.color{
+    color:#19c1df;
+}
+.state{
+    background-color: #b4e2eb;
+}
+.service:hover{
+    background-color:#b1e3ec;
+}
+.step{
+    background-color:#d2f5fa;
+}
+.white{
+    color: white;
+}
+.profile{
+    background: #1CADC6;
+    background: -webkit-linear-gradient(to bottom, #15ABD0, #43B388);
+    background: -moz-linear-gradient(to bottom, #15ABD0, #43B388);
+    background: linear-gradient(to bottom, #15ABD0, #43B388);
+}
+.card-image{
+    background-image: url('../assets/advisor-1.jpg');
+}
+.transparent{
+    background-color: rgba(0,0,0,0.5);
+    height: 390px; 
+}
+.card-front-image{
+    background-image: url('../assets/advisor-2.jpg');
+    background-size: cover;
+    height: 390px; 
+}
+.card-colors{
+    background-color: #333333;
+    height: 390px; 
+}
+.test-color{
+    background-color: #EDF8FB;
+}
+.height-form{
+    height: 50px;
+    width: 70%;
+}
+.line{
+    border-right: 1px solid white;
+    height: 350px;
+}
+@media(max-width:1200px)
+{
+    .fon{
+        font-size:14px;
+        text-align: center;
+    }
+    .fon-sm{
+        font-size:12px;
+        text-align: center;
+    }
+    h1{
+        font-size: xx-large;
+    }
+
+}
